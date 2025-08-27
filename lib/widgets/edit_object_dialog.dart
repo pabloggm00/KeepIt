@@ -81,7 +81,7 @@ class _EditObjectDialogState extends State<EditObjectDialog> {
         categoria: selectedCategoria!,
         ubicacion: selectedUbicacion!,
         description: descriptionController.text.trim(),
-        fecha: widget.objeto.fecha,
+        fecha: DateTime.now().toIso8601String(),
       );
 
       widget.onEdit(actualizado);

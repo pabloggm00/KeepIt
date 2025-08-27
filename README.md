@@ -1,16 +1,21 @@
-# keepit
+# KeepIt
 
-A new Flutter project.
+KeepIt es una aplicación de gestión de objetos que te permite organizar tus pertenencias de manera sencilla y visual. Puedes clasificar los objetos por **categorías** y **ubicaciones**, buscarlos, filtrarlos y editarlos fácilmente.
 
-## Getting Started
+## Funcionalidades principales
 
-This project is a starting point for a Flutter application.
+- Añadir, editar y eliminar objetos.
+- Crear y eliminar **categorías** y **ubicaciones**.
+- Buscar objetos por nombre.
+- Filtrar objetos por:
+  - Categoría
+  - Ubicación
+  - Última modificación
+  - Orden alfabético (A-Z / Z-A)
 
-A few resources to get you started if this is your first Flutter project:
+## Tecnologías
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Flutter (Dart)
+- Persistencia local mediante `StorageService`
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
